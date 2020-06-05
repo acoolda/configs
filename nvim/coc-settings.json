@@ -1,0 +1,16 @@
+{
+   // "languageserver": {
+    //"bash":{
+      //  "command":"bash-language-server",
+    //  "args":["start"],
+      //  "filetypes":["sh"]
+       // }
+
+
+    //}
+    "jedi.enable":false,
+    //"jedi.executable.command":"/home/acoolda_ubuntu/.local/bin/jedi-language-server",
+    "python.venvFolders":[".env"],
+    "python.setLinter":"flake8"
+}
+

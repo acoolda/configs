@@ -1,0 +1,14 @@
+# development
+name: development # session name
+root: ~/devproject # 工程目录
+
+
+windows:
+  - editor: # 第一个名为editor的窗口
+      layout: main-horizontal
+      panes:
+        - vim # exec vim comman
+        - date # second pane and exec date command
+        -      # empty string just open a pane
+  - server: top # 第二个名为server窗口 运行top 命令
+  - logs: tail -f ~/development # third windwos and exec some command
